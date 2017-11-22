@@ -1,0 +1,100 @@
+{
+  "blogs": {
+    "blog0": {
+      "title": "TIL that CSS is not my favorite...",
+      "date": "July 22, 2017",
+      "content": "When I first dipped my toes into HMTL and CSS I thought that CSS was the bomb.com, it was like magic! I've spent the last 3-4 days adding CSS to the homework and it makes me want to gouge my eyes out. And there's that.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog1": {
+      "title": "The Beginning of the JavaScript Saga",
+      "date": "July 29, 2017",
+      "content": "So...this week we began our journey through the wonderful world of JavaScript. I'll be honest, I was super pumped to move out of CSS. I walked into class somewhat okay I had already been exposed to some JS, but boy did I go downhill quickly. Luckily, I left that first day of class not as confused as I was when I walked in. I found it very helpful to go back through the code after class/study group and read through it again. It seems to stick with me better. A lot of times I feel as though I'm not understanding why/how/what the code is doing, but when I explain it to a peer I get a teeny tiny boost of confidence because I'm actually able to explain it and it all makes sense. Looking forward to learning more, but not looking forward to all the hair that I'll probably pull out.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog2": {
+      "title": "The JavaScript Journey Continues",
+      "date": "August 7, 2017",
+      "content": "We have been working with functions the last week and a half or so, and my brain is, surprisingly, still intact. It's amazing how many different ways you can solve a problem! It's also amazing how many times I say to myself 'Holy cow, that makes sense...' when others are presenting their solutions. In short, I'm starting to wrap my head around what we're learning, but at the same time, my mind is being blown.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog3": {
+      "title": "First Group Project",
+      "date": "August 12, 2017",
+      "content": "We finished our first group project this past week, and it went waaaaay better than expected. We didn't have as many merge conflicts, and when we did, they weren't as terrifying as I thought it would be. Definitely looking forward to more!",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog4": {
+      "title": "EVENT LISTENERS",
+      "date": "August 19, 2017",
+      "content": "So I definitely struggled with event listeners in the beginning. I was working on my Dynamic Cards project and I couldn't figure out how to get the click event to work. I had all the functions ready to go, but I sat there for HOURS trying to figure out why the click event wasn't firing off my code. A friend of mine came over to me to find out why I looked so confused and they looked at me and told me to stare REEEEAAALLLLY hard at the event listener. At that moment it immediately clicked (no pun intended), I wasn't calling the functions in the click event..DUH. But it's clicked ever since. Also, I didn't end up jumping out of a window that day.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog5": {
+      "title": "XHR",
+      "date": "August 29, 2017",
+      "content": "What is there to say about XHR...at first I thought I understood it, but after going through the homework assignment, I felt completely lost. Like most of the content we've been going through, I have to have someone explain everything step-by-step over and over again until I got it. I feel somewhat okay about it right now, but I feel like that will change soon. :/",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog6": {
+      "title": "Bootstrap",
+      "date": "September 2, 2017",
+      "content": "Bootstrap...more like Bootcrap! Kidding...anyways...I'm gonna be honest, I don't care for Boostrap all that much. All the hard work and CSS I put into styling my page is pretty much gone :(. I do like the grid system and components that it offers, but the styling is limited. I spent a lot of time trying to override the Bootstrap styling (didn't really work). Now that I've spent a week or so on it, I guess it's JUST okay.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog7": {
+      "title": "Taskrunners and Browserify",
+      "date": "September 18, 2017",
+      "content": "We've been learning taskrunners and browserify the last week or so and it's been very helpful! Grunt is something we should have been running from the beginning, in my opinion. I don't know how many times I've had an error in my code that was due to a missing semicolon and I could NOT find that thing! I don't like the fact that it takes me 5-10 minutes to do a setup for a project, BUT it's well worth it.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog8": {
+      "title": "Chatty and Jquery",
+      "date": "October 7, 2017",
+      "content": "I learned a TON after finishing up the Chatty app. I was really confused for a while on browserify stuff, but after working through the project with others...IT CLICKED. Also....I wish we would've learned jquery sooner because it would've made my life so much better. Thanking the jquery gods!",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog9": {
+      "title": "Promises",
+      "date": "October 11, 2017",
+      "content": "Promises are not clicking, honestly. It usually takes me a good minute for stuff to click so maybe that'll happen soon.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog10": {
+      "title": "API",
+      "date": "October 22, 2017",
+      "content": "I LOVE WORKING WITH API's! Once I can access the data, getting what I need is a breeze to me...for now. I'm assuming not all api's are easy to navigate, but for now, me likey.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "blog11": {
+      "title": "Theme Park",
+      "date": "November 12, 2017",
+      "content": "I learned a lot working on the theme park project. I FINALLY GET FIREBASE. I was team lead for this project, I definitely wasn't a fan of that, but I guess I need to get used to it. Promises also click. I'm super excited to get into Angular though.",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    }
+  },
+  "projects": {
+    "projects0": {
+      "title": "Interactive Grid",
+      "screenshots": "https://i.imgur.com/YFvJACG.png",
+      "description": "This was a project I worked on with a group on class. It's an interactive grip map of Magic Kingdom. We used Firebase to store information about the areas, attractions in the areas and maintanence tickets. ",
+      "github": "https://github.com/nss-evening-cohort-06/theme-park-protagonists",
+      "hosted": "theme-park-927c8.firebaseapp.com",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "projects1": {
+      "title": "Weather Now",
+      "screenshots": "https://i.imgur.com/xWYjCWW.png",
+      "description": "Weather Now was an app built using the Open Weather Map API and Firebase. You just type in the the zipcode of the city you want weather info for and it gives you the 3 and 5 day forecast.",
+      "github": "https://github.com/waamber/Local-Weather-Application",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    },
+    "projects2": {
+      "title": "Sandwich Maker",
+      "screenshots": "https://i.imgur.com/tvafAlO.png",
+      "description": "The Sammich Shop is an app that calulates the price of fixins you'd like on your sandwich and gives you a total.",
+      "github": "https://github.com/waamber/sandwichMaker-browserify",
+      "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
+    }
+  }
+}
