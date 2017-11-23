@@ -1,66 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
-.aboutme-page {
-  padding: 0; }
-  .aboutme-page h1 {
-    position: absolute;
-    left: 5%;
-    bottom: 75%;
-    z-index: 2; }
-  .aboutme-page .img-div {
-    padding: 0; }
-    .aboutme-page .img-div #bio-photo {
-      position: relative;
-      width: 100%;
-      height: 100%; }
-
-.professional-page {
-  padding: 0; }
-  .professional-page h1 {
-    position: absolute;
-    right: 5%;
-    top: 80%;
-    z-index: 2; }
-  .professional-page #pro-img {
-    position: relative;
-    width: 100%;
-    height: 390px; }
-
-.projects-page {
-  padding: 0; }
-  .projects-page h1 {
-    position: absolute;
-    right: 5%;
-    bottom: 75%;
-    z-index: 2; }
-  .projects-page #project-img {
-    position: relative;
-    width: 100%;
-    height: 100%; }
-
-.blog-page {
-  padding: 0; }
-  .blog-page h1 {
-    position: absolute;
-    right: 2%;
-    bottom: 75%;
-    z-index: 2; }
-  .blog-page #blog-img {
-    position: relative;
-    width: 100%;
-    height: 293px; }
-
-.contact-page {
-  padding: 0; }
-  .contact-page h1 {
-    position: absolute;
-    right: 10%;
-    top: 75%;
-    z-index: 2; }
-  .contact-page #contact-img {
-    position: relative;
-    width: 100%;
-    height: 293px; }
+a {
+  all: unset; }
 
 html,
 body {
@@ -79,6 +20,7 @@ body {
   background-color: lightgrey; }
 
 .menu-collapsed {
+  z-index: 2;
   transition: all .25s;
   position: fixed;
   top: 10px;
@@ -102,10 +44,12 @@ body {
     top: 8px; }
 
 .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
+  z-index: 2;
   transition: all .25s;
   top: -0px; }
 
 .menu-expanded {
+  z-index: 2;
   transition: all .25s;
   text-align: center;
   line-height: 200px;
@@ -147,9 +91,91 @@ body {
 h1 {
   font-size: 3em; }
 
-h3 {
-  color: #999; }
-
 p {
   line-height: 160%;
   letter-spacing: 1px; }
+
+.aboutme-page {
+  padding: 0; }
+  .aboutme-page .aboutme-div {
+    padding: 0; }
+    .aboutme-page .aboutme-div .aboutme-div2 {
+      padding: 0; }
+      .aboutme-page .aboutme-div .aboutme-div2 #bio-photo {
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 292px; }
+    .aboutme-page .aboutme-div .aboutme-p {
+      margin: 10px;
+      padding: 5px; }
+
+.professional-page {
+  padding: 0; }
+  .professional-page h1 {
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    z-index: 1; }
+  .professional-page #pro-img {
+    position: relative;
+    width: 100%;
+    height: 390px; }
+
+.projects-page {
+  padding: 0; }
+  .projects-page h1 {
+    position: absolute;
+    left: 5%;
+    bottom: 82%;
+    z-index: 1; }
+  .projects-page #project-img {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+.blog-page {
+  padding: 0; }
+  .blog-page h1 {
+    position: absolute;
+    right: 2%;
+    bottom: 75%;
+    z-index: 1; }
+  .blog-page #blog-img {
+    position: relative;
+    width: 100%;
+    height: 293px; }
+
+.contact-page {
+  padding: 0; }
+  .contact-page h1 {
+    position: absolute;
+    right: 10%;
+    top: 75%;
+    z-index: 1; }
+  .contact-page #contact-img {
+    position: relative;
+    width: 100%;
+    height: 293px; }
+
+.pro-title {
+  font-size: 25px; }
+
+.professional-background {
+  background-color: lightgrey;
+  padding: 10px; }
+  .professional-background .workhistory {
+    padding: 5px; }
+  .professional-background h3 {
+    color: black; }
+  .professional-background h4, .professional-background h6, .professional-background ul {
+    color: black; }
+
+.blog-title {
+  font-size: 25px; }
+
+.blog-background {
+  padding: 20px;
+  background-color: lightgray; }
+  .blog-background .blog {
+    border-bottom: 2px solid black; }
