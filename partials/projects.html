@@ -1,12 +1,18 @@
 <div>
 
-  <div id="projects">
+  <div id="project-title">
     <h1>Projects</h1>
   </div>
-  <div ng-repeat="project in projects" class="projects">
-    <h3>{{project.title}}</h3>
-    <p>{{project.description}}</p>
-    <p>{{project.github}}</p>
+  <div class="project-background">
+    <div ng-repeat="project in projects" class="projects">
+      <h3 class="project-title">{{project.title}}</h3>
+      <div>
+        <p>{{project.description}}</p>
+      </div>
+      <div class="icon-group">
+        <a href="{{project.github}}"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a ng-if="project.hosted" href="{{project.hosted}}"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </div>
   </div>
-
 </div>

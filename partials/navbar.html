@@ -1,16 +1,16 @@
-<nav class="navbar" ng-controller="NavbarCtrl">
-
-  <div class="menu-collapsed">
-    <div class="bar"></div>
-    <nav>
-      <ul>
-        <li><a ng-href="#!/aboutme">About Me</a></li>
-        <li><a ng-href="#!/bio/professional">Professional History</a></li>
-        <li><a ng-href="#!/bio/blog">Blog</a></li>
-        <li><a ng-href="#!/bio/projects">Projects</a></li>
-        <li><a ng-href="#!/bio/contact">Contact</a></li>
-      </ul>
-    </nav>
+<nav class="navbar">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <li><a ng-href="#!/aboutme">About Me</a></li>
+      <li><a ng-href="#!/bio/professional">Professional History</a></li>
+      <li><a ng-href="#!/bio/blog">Blog</a></li>
+      <li><a ng-href="#!/bio/projects">Projects</a></li>
+      <li><a ng-href="#!/bio/contact">Contact</a></li>
+    </ul>
   </div>
 
 </nav>
