@@ -1,117 +1,135 @@
 @import 'variables';
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 a {
   all: unset;
 }
 
-
 /////NAVBAR/////
 
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-html,
-body {
-   height: 100%;
-   font-family: 'Quicksand', sans-serif;
-   color: black;
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
-.b-a {
-   transition: all .25s;
-   content: "";
-   position: absolute;
-   left: 0;
-   height: 6px;
-   width: 30px;
-   border-radius: 15px;
-   background-color: lightgrey;
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
 }
-.menu-collapsed {
-    z-index: 2;
-   transition: all .25s;
-   position: fixed;
-   top: 10px;
-   left: 9px;
-   height: 36px;
-   width: 36px;
-   z-index: 1;
-   cursor: pointer;
-   ul {
-      transition: all 0s;
-      position: fixed;
-      left: -9000px;
-   }
+
+a:hover
+{
+  color: tomato;
 }
-.bar {
-   @extend .b-a;
-   position: fixed;
-   left: 12px;
-   top: 24px;
-   &:before {
-      @extend .b-a;
-      top: -8px;
-   }
-   &:after {
-      @extend .b-a;
-      top: 8px;
-   }
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
 }
-.b-a-expanded {
-   z-index: 2;
-   transition: all .25s;
-   top: -0px;
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
 }
-.menu-expanded {
-    z-index: 2;
-   transition: all .25s;
-   text-align: center;
-   line-height: 200px;
-   height: 100%;
-   width: 100%;
-   border-radius: 0px;
-   top: 0;
-   left: 0;
-   background-color: rgba(0, 0, 0, 0.85);
-   ul {
-      transition: all 0s;
-      position: relative;
-      left: 0;
-      z-index: 2;
-   }
-   a {
-      transition: all .15s;
-      text-decoration: none;
-      font-size: 2em;
-      padding: 5px;
-      color: #fff;
-      display:block;
-      &:hover {
-         background-color:rgba(white, .8);
-         transition: all .15s;
-         letter-spacing: 2px;
-         color:#333;
-         border: 1px solid rgba(255, 255, 255, .15);
-      }
-   }
-   .bar {
-      background-color: transparent;
-      transition: all .25s;
-      &:before {
-         @extend .b-a-expanded;
-         transform: rotate(45deg);
-      }
-      &:after {
-         @extend .b-a-expanded;
-         transform: rotate(-45deg);
-      }
-   }
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
 }
-.row {
-   padding-top:150px;
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
 }
-h1 {
-   font-size: 3em;
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
 }
-p {
-   line-height: 160%;
-   letter-spacing:1px;
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 134px;
+  margin: -100px 0 0 -50px;
+  padding: 0px;
+  padding-top: 125px;
+  
+  background: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
 }
 
 /////ABOUT ME/////
@@ -213,7 +231,7 @@ p {
 }
 
 .professional-background {
- background-color: lightgrey;
+ background-color: #EEEEEE;
  padding: 10px;
 
   .workhistory {
@@ -236,11 +254,54 @@ p {
 
 .blog-background {
   padding: 20px;
-  background-color: lightgray;
+  background-color: #EEEEEE;
 
   .blog {
     border-bottom: 2px solid black;
   }
+}
+
+/////CONTACT/////
+#contact a {
+  text-decoration: none;
+}
+
+.contact-title {
+  font-size: 25px;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+}
+
+.contact-fa {
+  font-size: 95px;
+  margin: 0;
+}
+
+/////PROJECTS/////
+
+#project-title {
+  font-size: 25px;
+}
+
+.project-background {
+  padding: 20px;
+  background-color: #EEEEEE;
+
+  .project-title {
+    font-size: 35px;
+  }
+
+  .projects {
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+}
+
+.icon-group {
+  margin-bottom: 2px;
 }
 
 

@@ -75,7 +75,7 @@
   },
   "projects": {
     "projects0": {
-      "title": "Interactive Grid",
+      "title": "Interactive Magic Kingdom Map",
       "screenshots": "https://i.imgur.com/YFvJACG.png",
       "description": "This was a project I worked on with a group on class. It's an interactive grip map of Magic Kingdom. We used Firebase to store information about the areas, attractions in the areas and maintanence tickets. ",
       "github": "https://github.com/nss-evening-cohort-06/theme-park-protagonists",
@@ -87,13 +87,15 @@
       "screenshots": "https://i.imgur.com/xWYjCWW.png",
       "description": "Weather Now was an app built using the Open Weather Map API and Firebase. You just type in the the zipcode of the city you want weather info for and it gives you the 3 and 5 day forecast.",
       "github": "https://github.com/waamber/Local-Weather-Application",
+      "hosted": "",
       "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
     },
-    "projects2": {
-      "title": "Sandwich Maker",
-      "screenshots": "https://i.imgur.com/tvafAlO.png",
-      "description": "The Sammich Shop is an app that calulates the price of fixins you'd like on your sandwich and gives you a total.",
-      "github": "https://github.com/waamber/sandwichMaker-browserify",
+    "projects3": {
+      "title": "Contact App",
+      "screenshots": "https://i.imgur.com/6cfwokw.png",
+      "description": "This was the first app I built using AngularJS. Firebase was also used to authenticate users and save the contact data.",
+      "github": "https://github.com/waamber/angular-contacts",
+      "hosted": "",
       "uid": "AIzaSyB2GQ1sFwaPLvU9qtQItSVaTFpO8138hB8"
     }
   }

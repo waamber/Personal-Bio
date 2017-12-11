@@ -8,11 +8,9 @@ app.config(function ($routeProvider) {
   $routeProvider
     .when("/aboutme", {
       templateUrl: 'partials/aboutme.html',
-      controller: 'AboutmeCtrl',
     })
     .when("/bio/professional", {
       templateUrl: 'partials/professional.html',
-      controller: 'ProfessionalCtrl',
     })
     .when("/bio/blog", {
       templateUrl: 'partials/blog.html',
@@ -20,11 +18,10 @@ app.config(function ($routeProvider) {
     })
     .when("/bio/contact", {
       templateUrl: 'partials/contact.html',
-      controller: 'ContactCtrl',
     })
     .when("/bio/projects", {
       templateUrl: 'partials/projects.html',
       controller: 'ProjectsCtrl',
     })
-    .otherwise("/aboutme"); //index will be about me
+    .otherwise("/aboutme");
 });
